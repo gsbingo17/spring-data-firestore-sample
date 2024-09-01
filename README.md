@@ -8,7 +8,8 @@ This is a Java project demonstrating how to switch from Open Source MongoDB to F
 
 - Java 17 or higher
 - Maven
-- Cloud Firestore account
+- Google Cloud project with Firestore enabled
+- Service account with permissions to access Firestore
 
 ## Project Overview
 
