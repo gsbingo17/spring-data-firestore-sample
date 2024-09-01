@@ -1,18 +1,18 @@
 # README.md
 
-## Project Name
+## Project Briefing
 
-This is a Java project demonstrating how to switch from MongoDB to Firestore using Spring Boot, Maven, and Spring Data.
+This is a Java project demonstrating how to switch from Open Source MongoDB to Firestore using Spring Boot, Maven, and Spring Data.
 
 ## Prerequisites
 
 - Java 17 or higher
 - Maven
-- Firestore account
+- Cloud Firestore account
 
 ## Project Overview
 
-This project was initially set up with MongoDB as the database. However, it has been refactored to use Firestore instead. The purpose of this repository is to demonstrate how easy it is to make a few changes to the codebase to switch from MongoDB to Firestore, especially when using Spring Data. It also serves as a learning resource for developers looking to understand the code changes involved in such a transition.
+This project was initially set up with Open Source MongoDB as the database. However, it has been refactored to use Cloud Firestore instead. The purpose of this repository is to demonstrate how easy it is to make a few changes to the codebase to switch from MongoDB to Firestore, especially when using Spring Data. It also serves as a learning resource for developers looking to understand the code changes involved in such a transition.
 
 ## Handling Nested Fields
 
@@ -33,7 +33,7 @@ Replacing the whole nested field involves retrieving the document, replacing the
 ## Setup
 
 1. Clone the repository to your local machine.
-2. Navigate to the project directory.
+2. Navigate to the project directory and comment/uncomment a few specific code lines to explore the transition between the two databases.
 
 ## Configuration
 
