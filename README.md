@@ -57,7 +57,7 @@ mvn spring-boot:run
 
 ## Using the Application
 
-The application provides a repository to interact with Firestore. The repository provides methods to find `BusinessFormConfig` by form name, form code, or both.
+The application provides a repository to interact with Firestore, offering CRUD (Create, Read, Update, Delete) operations for `BusinessFormConfig` entities. This includes methods to retrieve configurations by form name, form code, or a combination of both.
 
 ## Switching from MongoDB to Firestore
 
@@ -66,10 +66,6 @@ The codebase was initially set up to use MongoDB. However, with a few changes, i
 The use of Spring Data made this transition smoother. Spring Data provides a consistent programming model that supports a wide range of NoSQL databases, including MongoDB and Firestore. This means that the underlying database can be switched with minimal changes to the codebase.
 
 This project serves as a practical guide for developers to learn and understand the code changes involved in switching from MongoDB to Firestore. By studying the codebase, developers can quickly grasp the necessary changes and apply them in their own projects. After going through the project, developers will understand how straightforward the process is.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
